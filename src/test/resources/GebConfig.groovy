@@ -4,8 +4,11 @@
 	See: http://www.gebish.org/manual/current/configuration.html
 */
 
-import org.openqa.selenium.firefox.FirefoxDriver
 
-driver = { new FirefoxDriver() }
+import org.openqa.selenium.chrome.ChromeDriver
+
+System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+
+driver = { new ChromeDriver() }
 
 baseUrl = "http://gebish.org"
