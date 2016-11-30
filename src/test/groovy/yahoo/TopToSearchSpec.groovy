@@ -14,6 +14,7 @@ import yahoo.TopPage
 class TopToSearchSpec extends GebReportingSpec {
     def "トップページから検索ページに遷移する"() {
         when:
+        println 'ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!'
         to TopPage
 
         and:

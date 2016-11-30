@@ -3,14 +3,14 @@
 	
 	See: http://www.gebish.org/manual/current/configuration.html
 */
-
-
-import io.github.bonigarcia.wdm.ChromeDriverManager
-import org.openqa.selenium.chrome.ChromeDriver
+import io.github.bonigarcia.wdm.PhantomJsDriverManager
+import org.openqa.selenium.phantomjs.PhantomJSDriver
 
 driver = {
-    ChromeDriverManager.getInstance().setup()
-    new ChromeDriver()
+//    ChromeDriverManager.getInstance().setup()
+//    new ChromeDriver()
+    PhantomJsDriverManager.getInstance().setup()
+    new PhantomJSDriver()
 }
 
 baseUrl = "http://www.yahoo.co.jp/"
