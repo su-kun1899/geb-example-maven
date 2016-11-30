@@ -11,4 +11,4 @@ System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver")
 
 driver = { new ChromeDriver() }
 
-baseUrl = "http://gebish.org"
+baseUrl = "http://www.yahoo.co.jp/"

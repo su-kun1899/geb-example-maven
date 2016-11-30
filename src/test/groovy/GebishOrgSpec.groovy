@@ -1,5 +1,7 @@
 import geb.spock.GebReportingSpec
+import spock.lang.Ignore
 
+@Ignore
 class GebishOrgSpec extends GebReportingSpec {
 
     def "can get to the current Book of Geb"() {
