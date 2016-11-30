@@ -2,6 +2,9 @@ package yahoo
 
 import geb.spock.GebReportingSpec
 import geb.spock.GebSpec
+import spock.lang.Ignore
+import yahoo.SearchPage
+import yahoo.TopPage
 
 /**
  * トップページから検索ページへ遷移するテスト

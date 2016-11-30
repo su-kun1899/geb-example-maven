@@ -5,10 +5,12 @@
 */
 
 
+import io.github.bonigarcia.wdm.ChromeDriverManager
 import org.openqa.selenium.chrome.ChromeDriver
 
-System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
-
-driver = { new ChromeDriver() }
+driver = {
+    ChromeDriverManager.getInstance().setup()
+    new ChromeDriver()
+}
 
 baseUrl = "http://www.yahoo.co.jp/"

@@ -55,6 +55,11 @@
       <artifactId>selenium-chrome-driver</artifactId>
       <version>${seleniumVersion}</version>
     </dependency>
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>1.5.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
